@@ -8,6 +8,8 @@ package Lists;
  *
  * @author HP I3
  */
-public interface List <t>  {
+public interface List <T>  {
     public boolean add(T t);
+    
+    public  void showAll();
 }
