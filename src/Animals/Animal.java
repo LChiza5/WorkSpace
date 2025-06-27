@@ -16,6 +16,7 @@ public class Animal {
     private String species;
     private LocalDate birthDate;
     private Zone zone;
+    int length;
 
     public String getId() {
         return id;
