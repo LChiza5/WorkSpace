@@ -6,8 +6,16 @@ package Lists;
 
 /**
  *
+
  * @author ccore
  */
-public interface List {
+
+public interface List <T>  {
+    public boolean add(T t);
+    public boolean remove (T t);
+    public T find(Object id);
     
+    public  void showAll();
+
+
 }
