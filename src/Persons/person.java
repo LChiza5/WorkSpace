@@ -15,7 +15,7 @@ import java.time.LocalDate;
  *
  * @author jprod
  */
-public abstract class person {
+public abstract class Person {
     protected String id;
     protected String name;
     protected LocalDate birthDate;
@@ -50,7 +50,7 @@ public abstract class person {
         return phone.matches("^[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}$");
     }
 
-    public person(String id, String name, LocalDate birthDate, String phone) {
+    public Person(String id, String name, LocalDate birthDate, String phone) {
         this.id = id;
         this.name = name;
         if (UtilDate.isNotFutureDate(birthDate))
