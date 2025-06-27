@@ -8,6 +8,6 @@ package Lists;
  *
  * @author HP I3
  */
-public interface List <t>  {
-    public boolean add(T t);
+public interface List <T>  {
+    public T find(Object id);
 }
