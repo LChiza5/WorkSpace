@@ -11,5 +11,7 @@ package Lists;
 public interface List <T>  {
     public boolean add(T t);
     
+    public T find(Object id);
+    
     public  void showAll();
 }
